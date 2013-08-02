@@ -1,0 +1,163 @@
+###################### Node
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
+###################### Dart
+.DS_Store
+packages
+.project
+pubspec.lock
+
+###################### Java
+*.class
+
+# Packaged
+*.jar
+*.war
+*.ear
+
+###################### Scala
+*.log
+
+# sbt
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE
+.scala_dependencies
+
+###################### Go
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+
+###################### PlayFramework
+# Extracted from: 
+# https://github.com/ulrich/macaron-factory/blob/master/.gitignore
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+# Ignore Play! working directory #
+db
+eclipse
+lib
+log
+logs
+modules
+precompiled
+project/project
+project/target
+target
+tmp
+test-result
+server.pid
+*.iml
+*.eml
+
+###################### Maven
+target/
+
+###################### Clojure/Leiningen
+/lib/
+/classes/
+/targets/
+.lein-deps-sum
+
+###################### Mercurial
+/.hg/*
+*/.hg/*
+.hgignore
+ 
+###################### SublimeText project
+*.sublime-workspace
+
+###################### Eclipse
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+###################### SASS/Compas
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+
+###################### Linux
+# Ignore all dot and tilda files except .gitignore
+.*
+!.gitignore
+*~
+
+###################### Windows
+# image file caches
+Thumbs.db
+ehthumbs.db
+
+# exec
+*.com
+*.dll
+*.exe
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
