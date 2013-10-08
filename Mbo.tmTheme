@@ -6,6 +6,13 @@
 <!-- code: https://github.com/aziz/tmTheme-Editor                  -->
 <!-- theme: https://raw.github.com/mbonaci/global/Mbo.tmTheme      -->
 <!-- details on how to use: https://github.com/aziz/tmTheme-Editor -->
+
+<!--
+#### Other editors: ####
+Brackets mbo theme:   https://github.com/mbonaci/themes-for-brackets/blob/master/themes/mbo.css
+CodeMirror mbo theme: https://github.com/mbonaci/CodeMirror/blob/master/theme/mbo.css
+-->
+
 <plist version="1.0">
 <dict>
 	<key>name</key>
